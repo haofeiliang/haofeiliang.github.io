@@ -1,9 +1,8 @@
 cv:
   name: Haofei Liang
-  label: Eng.D. Candidate
+  label: Doctoral Candidate
   email: lianghaofei@sjtu.edu.cn
   location: Shanghai, China
-  image: ""
   summary: Eng.D. candidate in Computer Science and Technology at Shanghai Jiao Tong University, researching fully homomorphic encryption with focus on the TFHE scheme family.
 
   social_networks:
