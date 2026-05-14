@@ -2,19 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Haofei Liang's Website # the website title (if blank, full name will be used instead)
-first_name: Liang
-middle_name: R.
-last_name: Haofei
+title: Haofei Liang # the website title (if blank, full name will be used instead)
+first_name: Haofei
+middle_name:
+last_name: Liang
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  lianghaofei@sjtu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Ph.D. candidate in Computer Science and Technology at Shanghai Jiao Tong University. Research on fully homomorphic encryption (FHE), focusing on TFHE scheme applications, FHE scheme design, and performance optimization.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: fully homomorphic encryption, FHE, TFHE, cryptography, privacy-preserving computation
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -279,8 +278,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Liang, Hu, Liu, Wang, Xie, Yu, Zhang, Zheng, Tromer]
+  first_name: [Haofei, Zhenkai, Fengrun, Xiao, Xiang, Yu, Fan, Wenting, Eran, Zeyu, Yunhao, Kang, Wenhao, Yuncong]
 
   style: apa
   locale: en

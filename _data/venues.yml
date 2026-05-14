@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"USENIX Security":
+  url: https://www.usenix.org/conference/usenixsecurity26
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACM CCS":
+  url: https://www.sigsac.org/ccs/CCS2026/
+  color: "#cc0000"
 
-"Vision":
-  color: "#009f36"
+"ePrint":
+  url: https://eprint.iacr.org/
+  color: "#996600"
