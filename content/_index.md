@@ -1,10 +1,20 @@
 +++
-title = "Latest posts"
+title = "Home"
 
 [extra]
-header = { title = "Hi, I'm YOUR_NAME! 👋", img = "img/profile.webp", img_alt = "YOUR_NAME" }
-section_path = "blog/_index.md"
-max_posts = 5
+header = { title = "Hi, I'm Haofei Liang", img = "img/profile.jpg", img_alt = "Haofei Liang" }
+show_reading_time = false
 +++
 
-Welcome to my personal site!
+I am an Eng.D. candidate in Computer Science and Technology at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), advised by Prof. Yu Yu.
+
+My research focuses on **fully homomorphic encryption (FHE)**, particularly the TFHE scheme family. I am interested in applications of FHE, efficient scheme design, and performance optimization for FHE-based protocols.
+
+## Research highlights
+
+- **InstantOMR** — oblivious message retrieval with low latency and optimal parallelizability.
+- **Ajax** — fast threshold FHE without noise flooding.
+- **HasteBoots** — proving TFHE programmable bootstrapping in seconds.
+- **Relect** — single secret leader election via FHE with reduced computation and communication.
+
+[View all publications](/publications/) · [Explore research software](/projects/) · [Download my CV](/cv/)
