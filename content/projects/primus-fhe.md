@@ -5,21 +5,23 @@ weight = 1
 template = "info-page.html"
 
 [taxonomies]
-tags = ["FHE", "TFHE", "NTT"]
+tags = ["FHE", "TFHE", "Rust"]
 
 [extra]
 show_reading_time = false
 +++
 
-**primus-fhe** is the main open-source FHE implementation library for my research projects. Written in Rust, it provides high-performance TFHE primitives, including number-theoretic-transform-based implementations, as reusable building blocks for FHE schemes and privacy-preserving protocols.
+**primus-fhe** is the main open-source FHE implementation library for my research projects. Written in Rust, it provides reusable TFHE/FHEW-style core operations, ciphertext transformations, and polynomial-arithmetic backends for FHE schemes and privacy-preserving protocols.
 
-Recent project-specific FHE implementations that were developed in **primus** are currently being migrated back into **primus-fhe**. This consolidation keeps common cryptographic primitives, parameter sets, and performance optimizations in one codebase while allowing each research project to retain its protocol-specific logic.
+The current development branch introduces a more unified FHE core and a Fourier-domain computation path using open-source FFT libraries alongside the existing NTT path. This work is being developed in my [`feat/fhe_core`](https://github.com/haofeiliang/primus-fhe/tree/feat/fhe_core) branch and is intended for consolidation into the upstream **primus-fhe** repository.
 
 - Lead developer and maintainer
-- High-performance NTT-based TFHE implementation
-- Shared FHE backend for current and future research projects
-- Ongoing consolidation of reusable implementations from primus
+- Rust implementations of reusable TFHE/FHEW-style core operations
+- Existing NTT path and an in-progress Fourier-domain backend
+- Performance profiling, parallel optimization, and correctness and noise validation
 
 ### Resources
 
-[Source code](https://github.com/primus-labs/primus-fhe)
+[Current development branch](https://github.com/haofeiliang/primus-fhe/tree/feat/fhe_core)
+
+[Upstream repository](https://github.com/primus-labs/primus-fhe)

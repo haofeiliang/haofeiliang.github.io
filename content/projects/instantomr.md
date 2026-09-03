@@ -11,9 +11,9 @@ tags = ["FHE", "TFHE", "OMR"]
 show_reading_time = false
 +++
 
-Oblivious message retrieval (OMR) lets resource-limited recipients outsource the detection and retrieval of their messages in anonymous messaging systems and private blockchains without revealing which messages belong to them.
+Oblivious message retrieval (OMR) protects recipient privacy in anonymous messaging systems: an untrusted server helps deliver the relevant messages without learning their intended recipient, while the recipient avoids scanning every message.
 
-**InstantOMR** is a hybrid OMR construction that combines TFHE functional bootstrapping with standard RLWE operations. It is designed around two practical goals:
+**InstantOMR** is a single-server OMR construction with a two-layer bootstrapping architecture. It combines TFHE functional bootstrapping with regular RLWE homomorphic operations and is designed around two practical goals:
 
 - **Low latency:** recipients can retrieve messages with substantially less waiting time than prior single-server OMR constructions.
 - **Optimal parallelizability:** messages can be processed independently, allowing detection to scale efficiently with the available CPU cores.

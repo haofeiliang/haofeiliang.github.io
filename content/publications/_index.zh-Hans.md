@@ -20,16 +20,6 @@ show_reading_time = false
 
 ---
 
-### Ajax: Fast Threshold Fully Homomorphic Encryption without Noise Flooding
-
-Zhenkai Hu, **Haofei Liang**, Xiao Wang, Xiang Xie, Kang Yang, Yu Yu, and Wenhao Zhang.
-
-*第 35 届 USENIX Security Symposium（USENIX Security '26）*，2026。
-
-[USENIX](https://www.usenix.org/conference/usenixsecurity26/presentation/hu-zhenkai) [IACR ePrint](https://eprint.iacr.org/2025/1834) [PDF](https://eprint.iacr.org/2025/1834.pdf) [代码](https://github.com/primus-labs/Ajax)
-
----
-
 ### Relect: Single Secret Leader Election via FHE with Reduced Computation and Communication and Transparent Setup
 
 **Haofei Liang**, Zeyu Liu, Yunhao Wang, Xiang Xie, Yu Yu, and Fan Zhang.
@@ -37,6 +27,16 @@ Zhenkai Hu, **Haofei Liang**, Xiao Wang, Xiang Xie, Kang Yang, Yu Yu, and Wenhao
 *第 33 届 ACM Conference on Computer and Communications Security（ACM CCS 2026）*，2026。已接收，待发表。
 
 [IACR ePrint](https://eprint.iacr.org/2026/1619) [PDF](https://eprint.iacr.org/2026/1619.pdf) [代码](https://github.com/haofeiliang/new-ssle) [接收论文列表](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html)
+
+---
+
+### Ajax: Fast Threshold Fully Homomorphic Encryption without Noise Flooding
+
+Zhenkai Hu, **Haofei Liang**, Xiao Wang, Xiang Xie, Kang Yang, Yu Yu, and Wenhao Zhang.
+
+*第 35 届 USENIX Security Symposium（USENIX Security '26）*，2026。
+
+[USENIX](https://www.usenix.org/conference/usenixsecurity26/presentation/hu-zhenkai) [IACR ePrint](https://eprint.iacr.org/2025/1834) [PDF](https://eprint.iacr.org/2025/1834.pdf) [代码](https://github.com/primus-labs/Ajax)
 
 ---
 

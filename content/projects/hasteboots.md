@@ -1,7 +1,7 @@
 +++
 title = "HasteBoots"
-description = "Proving TFHE programmable bootstrapping in seconds"
-weight = 5
+description = "Succinct arguments tailored to TFHE programmable bootstrapping"
+weight = 6
 template = "info-page.html"
 
 [taxonomies]
@@ -11,10 +11,13 @@ tags = ["FHE", "TFHE", "Zero-Knowledge Proofs"]
 show_reading_time = false
 +++
 
-An open-source implementation of a high-performance **zero-knowledge proof** system for **TFHE programmable bootstrapping**. It achieves proof generation in seconds, making verifiable FHE computation practical.
+**HasteBoots** is a succinct argument tailored to **TFHE programmable bootstrapping**, one of the most computationally intensive FHE operations. It uses protocols for arithmetic over quotient rings to reduce proof generation to seconds and supports batching multiple TFHE evaluations and bootstrappings.
 
-- Primary developer
-- Corresponding paper at USENIX Security '26
+### Contribution
+
+- Primarily responsible for the FHE component and its implementation.
+- The zero-knowledge proof component was developed by other collaborators.
+- Corresponding paper at USENIX Security 2026.
 
 ### Resources
 

@@ -1,7 +1,7 @@
 +++
 title = "Ajax"
-description = "Fast threshold fully homomorphic encryption without noise flooding"
-weight = 3
+description = "Threshold key generation and decryption for FHEW-like schemes without noise flooding"
+weight = 5
 template = "info-page.html"
 
 [taxonomies]
@@ -11,10 +11,15 @@ tags = ["FHE", "Threshold FHE"]
 show_reading_time = false
 +++
 
-Reference implementation of **Ajax**, a threshold fully homomorphic encryption scheme that eliminates noise flooding while maintaining security and enabling efficient multi-party FHE computation.
+Threshold FHE distributes the secret key across multiple parties and therefore requires threshold key-generation and decryption protocols around the underlying FHE scheme.
 
-- Primary developer
-- Corresponding paper at USENIX Security '26
+**Ajax** designs these protocols for FHEW-like cryptosystems. Its threshold decryption uses a mask-then-open technique based on random double sharings over different rings, avoiding noise flooding while retaining small FHE parameters. Its threshold key generation also reduces how noise grows with the number of parties.
+
+### Contribution
+
+- Primarily responsible for implementing and optimizing the FHE component.
+- The MPC component was developed by other collaborators.
+- Corresponding paper at USENIX Security 2026.
 
 ### Resources
 

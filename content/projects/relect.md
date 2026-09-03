@@ -1,7 +1,7 @@
 +++
 title = "Relect"
-description = "Single secret leader election via FHE"
-weight = 6
+description = "Ring-LWE-based single-secret leader election without trusted setup"
+weight = 3
 template = "info-page.html"
 
 [taxonomies]
@@ -11,10 +11,15 @@ tags = ["FHE", "Leader Election"]
 show_reading_time = false
 +++
 
-An open-source implementation of a high-performance **single secret leader election** scheme with transparent setup and reduced computation and communication.
+In single-secret leader election (SSLE), all parties jointly and obliviously elect one leader; only the selected leader learns the outcome unless they choose to reveal it.
 
-- Lead developer
-- First author of the corresponding ACM CCS 2026 paper
+**Relect** is an efficient SSLE protocol based on the Ring-LWE assumption. It uses the algebraic structure of threshold FHE together with tailored homomorphic circuits. Compared with prior concretely implemented work, it removes the trusted-setup assumption, supports dynamic leader selection in every round, and reduces local FHE computation and communication costs.
+
+### Contribution
+
+- First author of the corresponding ACM CCS 2026 paper.
+- Lead developer of the open-source implementation and experimental evaluation.
+- Protocol design, tailored FHE circuits, implementation, and performance evaluation.
 
 ### Resources
 

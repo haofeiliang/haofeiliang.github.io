@@ -32,5 +32,3 @@ Build the PDFs from the separate private CV source directory, then copy the gene
 
 - `static/assets/pdf/main-en.pdf`
 - `static/assets/pdf/main-cn.pdf`
-
-`static/assets/pdf/mian-cn.pdf` is retained only for compatibility with the old site URL.
