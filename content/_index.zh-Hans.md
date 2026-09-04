@@ -8,7 +8,7 @@ show_reading_time = false
 
 我是[上海交通大学](https://www.sjtu.edu.cn/)计算机科学与技术专业的工程博士研究生，导师是郁昱教授。
 
-我的研究方向是**全同态加密（FHE）**，尤其关注 TFHE 系列方案。我的工作涵盖 FHE 方案与协议设计、LWE/RLWE 技术，以及使用 Rust 开发和优化高性能 FHE 实现；目前正在为 [**primus-fhe**](/zh-Hans/projects/primus-fhe/) 开发基于开源 FFT 后端的 Fourier 域计算路径。
+我的研究方向是**全同态加密（FHE）**，尤其关注 TFHE 系列方案。我的工作围绕基于 LWE/RLWE 的 FHE，涵盖隐私保护协议设计、噪声分析与参数选择，以及使用 Rust 开发和优化高性能 FHE 实现；目前正在为 [**primus-fhe**](/zh-Hans/projects/primus-fhe/) 开发基于开源 FFT 后端的 Fourier 域计算路径。
 
 我有 3 篇论文发表于 USENIX Security 2026，另有 1 篇被 ACM CCS 2026 接收，其中 2 篇为第一作者；同时担任多个开源实现的主要开发者。
 

@@ -8,7 +8,7 @@ show_reading_time = false
 
 I am a doctoral candidate in Computer Science and Technology (Doctor of Engineering) at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), advised by Prof. Yu Yu.
 
-My research focuses on **fully homomorphic encryption (FHE)**, particularly the TFHE scheme family. My work spans FHE scheme and protocol design, LWE/RLWE-based techniques, and high-performance Rust implementations. I am currently developing a Fourier-domain computation path for [**primus-fhe**](/projects/primus-fhe/) using open-source FFT backends.
+My research focuses on **fully homomorphic encryption (FHE)**, particularly the TFHE scheme family. My work centers on LWE/RLWE-based FHE, spanning privacy-preserving protocol design, noise analysis and parameter selection, and the development and optimization of high-performance Rust implementations. I am currently developing a Fourier-domain computation path for [**primus-fhe**](/projects/primus-fhe/) using open-source FFT backends.
 
 I have three papers published at USENIX Security 2026 and one accepted at ACM CCS 2026, including two first-authored papers. I am also a lead or primary developer of their open-source implementations.
 
