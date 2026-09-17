@@ -13,11 +13,11 @@ show_reading_time = false
 
 **primus-fhe** is the main open-source FHE implementation library for my research projects. Written in Rust, it provides reusable TFHE/FHEW-style core operations, ciphertext transformations, and polynomial-arithmetic backends for FHE schemes and privacy-preserving protocols.
 
-The current development branch introduces a more unified FHE core and a Fourier-domain computation path using open-source FFT libraries alongside the existing NTT path. This work is being developed in my [`feat/fhe_core`](https://github.com/haofeiliang/primus-fhe/tree/feat/fhe_core) branch and is intended for consolidation into the upstream **primus-fhe** repository.
+Development is maintained in my repository and progressively integrated upstream into Primus Labs. The implementation covers a unified FHE core and both NTT and open-source FFT-based Fourier-domain computation paths.
 
 - Lead developer and maintainer
 - Rust implementations of reusable TFHE/FHEW-style core operations
-- Existing NTT path and an in-progress Fourier-domain backend
+- NTT and open-source FFT-based Fourier-domain arithmetic backends
 - Performance profiling, parallel optimization, and correctness and noise validation
 
 ### Resources
